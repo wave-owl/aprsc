@@ -1,0 +1,42 @@
+{
+  "gitlinks": {},
+  "vendored": [],
+  "models": [],
+  "external_libraries": [
+    {
+      "name": "Conditional source requirements declared by src/configure.ac",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/configure.ac"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by tests/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "tests/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by build/go.mod",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "build/go.mod"
+      ]
+    },
+    {
+      "name": "src/configure.ac and src/Makefile.in: native APRS server, libevent/pthreads/TLS feature checks",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "src/configure.ac"
+      ]
+    },
+    {
+      "name": "build/ and tests/ Go modules are tool/test dependencies",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "src/configure.ac"
+      ]
+    }
+  ]
+}

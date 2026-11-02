@@ -1,0 +1,440 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "5c085b18892b0506",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "20de497b181ee7ee2dc548f5bf0d7bd58576f504"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "849609e25598d131018a41324ee075123f6a642ec72d70ae5505ec000953f894"
+        }
+      ],
+      "name": "/Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/aprsc/.source-input/tests/go/go.mod",
+      "type": "file"
+    },
+    {
+      "bom-ref": "9b0927f24570d5cb",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7eb5e70e8ab578076a433f78bf10d1b294673ac2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c01135ee54f2e4edbfafc0469158093ea88eff30611c395732213d8ab21aa373"
+        }
+      ],
+      "name": "/Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/aprsc/.source-input/.github/workflows/tests.yml",
+      "type": "file"
+    },
+    {
+      "bom-ref": "external-library:0",
+      "name": "Conditional source requirements declared by src/configure.ac",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/configure.ac\", \"sha256\": \"9e584d9e5e9da4cf28e42e87c5a86fcdb92058ff5f1071af8be3f2f87c4095ce\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:1",
+      "name": "Conditional source requirements declared by tests/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"tests/Makefile\", \"sha256\": \"830e7abff6f1a59a605f8406714b15c03c3c567980ca965d0d16cf60b7ecccad\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:2",
+      "name": "Conditional source requirements declared by build/go.mod",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"build/go.mod\", \"sha256\": \"a7a85fb850d2041b09901e5d7fde178023a0c5e509a21434bfea22ec8eef0ecc\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:3",
+      "name": "src/configure.ac and src/Makefile.in: native APRS server, libevent/pthreads/TLS feature checks",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/configure.ac\", \"sha256\": \"9e584d9e5e9da4cf28e42e87c5a86fcdb92058ff5f1071af8be3f2f87c4095ce\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:4",
+      "name": "build/ and tests/ Go modules are tool/test dependencies",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/configure.ac\", \"sha256\": \"9e584d9e5e9da4cf28e42e87c5a86fcdb92058ff5f1071af8be3f2f87c4095ce\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v2?package-id=605f90b782654977",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*",
+      "name": "actions/checkout",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/tests.yml"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v2",
+      "type": "library",
+      "version": "v2"
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-go@v5?package-id=328e3d087fbf0686",
+      "cpe": "cpe:2.3:a:actions\\/setup-go:actions\\/setup-go:v5:*:*:*:*:*:*:*",
+      "name": "actions/setup-go",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-go:actions\\/setup_go:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup-go:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup_go:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-go:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_go:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/tests.yml"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-go@v5",
+      "type": "library",
+      "version": "v5"
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/hessu/go-aprs-fap@v0.1.0?package-id=689c2be435b022ef",
+      "cpe": "cpe:2.3:a:hessu:go-aprs-fap:v0.1.0:*:*:*:*:*:*:*",
+      "name": "github.com/hessu/go-aprs-fap",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hessu:go_aprs_fap:v0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/tests/go/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:0O9uXZQ54uLl1nRD5TXLyNcX5xSNVX5g0G9Zyi2ZRnI="
+        }
+      ],
+      "purl": "pkg:golang/github.com/hessu/go-aprs-fap@v0.1.0",
+      "type": "library",
+      "version": "v0.1.0"
+    },
+    {
+      "bom-ref": "pkg:golang/google.golang.org/protobuf@v1.36.10?package-id=81dcac6b964bcd6d",
+      "cpe": "cpe:2.3:a:google:protobuf:v1.36.10:*:*:*:*:*:*:*",
+      "name": "google.golang.org/protobuf",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/tests/go/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:AYd7cD/uASjIL6Q9LiTjz8JLcrh/88q5UObnmY3aOOE="
+        }
+      ],
+      "purl": "pkg:golang/google.golang.org/protobuf@v1.36.10",
+      "type": "library",
+      "version": "v1.36.10"
+    }
+  ],
+  "compositions": [
+    {
+      "aggregate": "unknown",
+      "assemblies": [
+        "git:https://github.com/wave-owl/aprsc@53782729641ff38ec1c338122b59b537774e82e9"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [],
+      "ref": "5c085b18892b0506"
+    },
+    {
+      "dependsOn": [],
+      "ref": "9b0927f24570d5cb"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:1"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:2"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:3"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:4"
+    },
+    {
+      "dependsOn": [
+        "5c085b18892b0506",
+        "9b0927f24570d5cb",
+        "external-library:0",
+        "external-library:1",
+        "external-library:2",
+        "external-library:3",
+        "external-library:4",
+        "pkg:github/actions/checkout@v2?package-id=605f90b782654977",
+        "pkg:github/actions/setup-go@v5?package-id=328e3d087fbf0686",
+        "pkg:golang/github.com/hessu/go-aprs-fap@v0.1.0?package-id=689c2be435b022ef",
+        "pkg:golang/google.golang.org/protobuf@v1.36.10?package-id=81dcac6b964bcd6d"
+      ],
+      "ref": "git:https://github.com/wave-owl/aprsc@53782729641ff38ec1c338122b59b537774e82e9"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:github/actions/checkout@v2?package-id=605f90b782654977"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:github/actions/setup-go@v5?package-id=328e3d087fbf0686"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:golang/github.com/hessu/go-aprs-fap@v0.1.0?package-id=689c2be435b022ef"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:golang/google.golang.org/protobuf@v1.36.10?package-id=81dcac6b964bcd6d"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "git:https://github.com/wave-owl/aprsc@53782729641ff38ec1c338122b59b537774e82e9",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/wave-owl/aprsc/tree/53782729641ff38ec1c338122b59b537774e82e9"
+        }
+      ],
+      "name": "wave-owl/aprsc",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "source-root"
+        },
+        {
+          "name": "sbom:git-commit",
+          "value": "53782729641ff38ec1c338122b59b537774e82e9"
+        },
+        {
+          "name": "sbom:git-tree",
+          "value": "98c72aab5c5b9391f6a263530a054c7e18df1598"
+        },
+        {
+          "name": "sbom:source-repository",
+          "value": "https://github.com/wave-owl/aprsc"
+        },
+        {
+          "name": "sbom:release-tags",
+          "value": "[]"
+        },
+        {
+          "name": "sbom:snapshot",
+          "value": "true"
+        },
+        {
+          "name": "sbom:snapshot-source-commit",
+          "value": "53782729641ff38ec1c338122b59b537774e82e9"
+        },
+        {
+          "name": "sbom:snapshot-scope",
+          "value": "Initial immutable source snapshot, before the tooling commit; not a release report."
+        }
+      ],
+      "type": "application",
+      "version": "53782729641ff38ec1c338122b59b537774e82e9"
+    },
+    "properties": [
+      {
+        "name": "sbom:scope",
+        "value": "Source repository inventory only; completeness is UNKNOWN. Syft inventories tracked source/package manifests. Gitlinks and declared vendored/model evidence are inspected at immutable pins. CMake declarations are conditional requirements, not resolved installations. This is NOT proof of operating-system packages, static-link closure, build-time resolution, or the contents of release binaries."
+      },
+      {
+        "name": "sbom:generation-status",
+        "value": "success"
+      },
+      {
+        "name": "sbom:generation-errors",
+        "value": "[]"
+      }
+    ],
+    "timestamp": "2026-11-02T16:49:30.665010+00:00",
+    "tools": {
+      "components": [
+        {
+          "author": "anchore",
+          "name": "syft",
+          "type": "application",
+          "version": "1.55.0"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:864434ad-9984-4215-a8af-6144d8c3b5d8",
+  "specVersion": "1.6",
+  "version": 1
+}

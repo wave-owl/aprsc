@@ -20,3 +20,9 @@ Have fun!
 
 - Hessu, OH7LZB
 
+
+## Source SBOM
+
+See [repository source SBOM report](SBOM.md). Release reports are generated automatically.
+
+The [source SBOM policy](SBOM-POLICY.md) describes automatic release artifacts.
