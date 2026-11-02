@@ -34,8 +34,8 @@ None.
 | actions/setup-go | v5 | Syft source/package discovery | unresolved |
 | github.com/hessu/go-aprs-fap | v0.1.0 | Syft source/package discovery | unresolved |
 | google.golang.org/protobuf | v1.36.10 | Syft source/package discovery | unresolved |
-| /Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/aprsc/.source-input/.github/workflows/tests.yml | unresolved | Syft source/package discovery | unresolved |
-| /Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/aprsc/.source-input/tests/go/go.mod | unresolved | Syft source/package discovery | unresolved |
+| .github/workflows/tests.yml | unresolved | Syft source/package discovery | unresolved |
+| tests/go/go.mod | unresolved | Syft source/package discovery | unresolved |
 
 License evidence paths/hashes, source manifests, model hashes and conditional
 CMake declarations are recorded in SBOM.cdx.json. Declared upstream pins do not

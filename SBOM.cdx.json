@@ -13,7 +13,7 @@
           "content": "849609e25598d131018a41324ee075123f6a642ec72d70ae5505ec000953f894"
         }
       ],
-      "name": "/Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/aprsc/.source-input/tests/go/go.mod",
+      "name": "tests/go/go.mod",
       "type": "file"
     },
     {
@@ -28,7 +28,7 @@
           "content": "c01135ee54f2e4edbfafc0469158093ea88eff30611c395732213d8ab21aa373"
         }
       ],
-      "name": "/Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/aprsc/.source-input/.github/workflows/tests.yml",
+      "name": ".github/workflows/tests.yml",
       "type": "file"
     },
     {
